@@ -1,0 +1,107 @@
+body{
+	font-family: arial;
+	}
+.intro h1{
+	text-align: center;
+	font-family: arial;
+	color:white;
+	background-color:#3366ff;
+	padding: 30px;
+	margin-top:0px;
+}
+.search_bar{
+ text-align: center;
+}
+.search_bar input{
+	padding: 10px;
+	width:65%;
+	border: groove 2px   #808080;
+	border-radius: 5px;
+}
+.search_bar button{
+	padding:10px;
+	background-color: seagreen;
+	border-radius: 3px;
+	color: white;
+	border:solid 1px  #404040;
+
+}
+header h2{
+	text-align: center;
+	color:   #404040;
+}
+.auto_location{
+	text-align: center;
+	border: solid 1px grey;
+	margin-left: 27%;
+	margin-right: 27%;
+	background-color: #f2f2f2;
+	box-shadow: 2px 3px 2px 2px grey;
+	border-radius: 5px;
+
+}
+#err{
+	text-align: center;
+}
+.auto_location h3{
+	text-align: center;
+	color: #404040;
+	font-size: 25px;
+
+}
+.auto_location button{
+	text-align: center;
+	width:90px;
+	padding: 8px;
+	color:white;
+	border-radius: 7px;
+	border: solid white 2px;
+	background-color:#3333ff;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+main{
+	margin-left: 10%;
+	margin-right:10%;
+}
+main h3{
+	text-align: left;
+	color: #666666;
+}
+#result_norm2{
+	color:blue;
+}
+#cont{
+ font-size: 20px;
+
+}
+main a{
+text-align:center;
+background-color:blue;
+color:white;
+border-radius:5px;
+padding:16px;
+width:65px;
+text-decoration:none;
+}
+#dis{
+ color:#404040;
+}
+#contact{
+text-align:center;
+padding:20px;
+margin-left:30%;
+margin-right:30%;
+border:2px solid black;
+}
+#contact a{
+text-align:center;
+color:grey;
+text-decoration:none;
+}
+#contact p{
+text-align:center;
+color:orange;
+}
+#contact h3{
+    color: #333333;
+}

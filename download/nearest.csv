@@ -1,0 +1,9 @@
+,time,latitude,longitude,depth,mag,place,type
+286,2009-04-15T03:17:58.950Z,6.796,82.616,10.0,4.5,near the east coast of Sri Lanka,earthquake
+2240,2007-09-06T07:09:44.150Z,18.057,76.535,10.0,3.6,"Maharashtra, India",earthquake
+8447,2003-12-03T17:43:07.880Z,9.188,85.489,10.0,4.8,Bay of Bengal,earthquake
+9637,2001-09-25T14:56:44.250Z,11.956,80.214,10.0,5.2,"near the coast of Tamil Nadu, India",earthquake
+10284,2000-06-19T08:22:06.620Z,18.014,76.487,33.0,4.4,"Maharashtra, India",earthquake
+12375,2014-11-03T19:06:23.460Z,16.0932,86.0768,15.79,4.4,Bay of Bengal,earthquake
+12527,2014-08-24T15:54:20.290Z,9.0717,85.8,17.23,4.1,Bay of Bengal,earthquake
+14029,2011-09-19T00:52:03.990Z,17.92,76.564,10.0,4.0,"Maharashtra-Karnataka border region, India",earthquake

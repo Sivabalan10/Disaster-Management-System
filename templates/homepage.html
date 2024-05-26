@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+	<script src="{{url_for('static', filename='app.js')}}">
+	</script>
+	<script src='https://kit.fontawesome.com/54a2c781b6.js' crossorigin='anonymous'></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Homepage</title>
+</head>
+<body>
+
+	<div class = "intro">
+			<h1>DISASTER MANAGEMENT</h1>
+	</div>
+	<div id = "overall">
+	<header>
+		<!-- Manual Search -->
+		<div class=  "search_bar" >
+		<input type="text" name="search" id = "search" placeholder="Search_places">
+		<button type = "button" onclick = "search_engine()">Search</button>
+	    </div>
+
+
+
+	    <!-- Auto location -->
+	    <div id = "searchbar">
+	    <br><h2>Or</h2>
+	    <div class= "auto_location">
+	    	<h3>Turn on <br>auto-location</h3>
+	    	<button type = "button" id = "autogi" style='font-size:20px' onclick = "autolocation()"><i class='fas fa-map-marker-alt' style='font-size:24px'></i></button>
+	    	<br><br>
+	    </div>
+	</div>
+	</header>
+</div>
+	<main>
+		<p id = "cont1"></p>
+		<h3 id = "result_norm"></h3>
+		<h3 id = "result_norm2"></h3>
+		<h3 id = "res2"></h3>
+		<h3 id = "res3"></h3>
+		<a href="{{ url_for('.download_file') }}" style="display:none" id = "model">Download</a>
+		<h1 id = "dis"></h1>
+		<p id = "cont"></p>
+
+		<h3 id = "err"></h3>
+
+		<h5 id = "model_res"></h5>
+		<br>
+		<div id="news">
+			<br><br>
+			<rssapp-carousel id="tiLzqYwa5cRPCLVJ"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
+		</div>
+	</main>
+
+	<footer>
+		<br><br><br><br>
+		<div id="contact">
+
+			<h3><u>EMERGENCY CONTACT - NDMA</u></h3>
+			<p><b>Postal Address:</b> <br><a>NDMA Bhawan A-1, Safdarjung Enclave<br>New Delhi - 110029</a></p>
+			<p><b>Head office:</b> <a href="tel:'+911126701700'">+91-11-26701700</a></p>
+			<p><b>Control Room: </b><a href="tel:'+911126701728'">+91-11-26701728</a> </p>
+			<p><b>Email: </b><a href="mailto:'controlroom@ndma.gov.in'">controlroom@ndma.gov.in</a></p>
+			<p><b>View map: </b><a href="http://maps.google.co.in/maps?q=NDMA+Bhawan,A-1,+Safdarjung+Enclave,New+Delhi&oe=utf-8&client=firefox-a&ie=UTF8&hq=NDMA+Bhawan,A-1,&hnear=Safdarjung+Enclave,+New+Delhi,+South+West+Delhi,+Delhi&t=m&ll=28.566526,77.199286&spn=0.006295,0.007312&source=embed"><i class='fas fa-route' style='font-size:24px'></i></a></p>
+
+		</div>
+	</footer>
+
+</body>
+</html>
